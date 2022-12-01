@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/_variables.scss">
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            margin: 20px;
+        }
+        body{
+            margin-bottom: 750px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-inline p-2 text-bg-primary">d-inline</div>
+    <div class="d-inline p-2 text-bg-dark">d-inline</div>
+
+    <div class="d-inline-block p-2 text-bg-primary">d-inline</div>
+    <div class="d-inline-block p-2 text-bg-dark">d-inline</div>
+    <!-- inline-block dediğimizde style etiketleri içerisinde bulunan
+    height ve width değerlerini kullanabiliyorum aksi halde sadece
+    inline yazdığımzda kullanamıyorum -->
+
+    <span class="d-block p-2 text-bg-primary">d-block</span>
+    <span class="d-block p-2 text-bg-dark">d-block</span>
+
+
+    <!-- grid -->
+    <div class="d-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+        <div class="border"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      .nav-link.active{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Saffet Ramazan Kaban</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Kurslarım</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courseDetails">Kurs Detayları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">İletişim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="min-vh-100 d-flex flex-column justify-content-end align-items-center" id="home" style="background-image: url('image/canbozfoto.png'); background-size: cover;">
+        <div style="text-align: center;">
+          <p class="display-3 mb-3 fw-bolder">Can Boz</p>
+          <h6 class="fs-3 text-secondary text-capitalize mb-4">Fullstack .net Core Developer - Consultant</h6>
+        </div>
+        <a class="btn btn-danger rounded-pill mb-3" href="#about">Hakkımda</a>
+      </section>
+
+
+      <section class="container py-5" id="about">
+        <div style="text-align: center;">
+          <h1 class="text-uppercase fw-bolder">HAKKIMDA</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, facere.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid" src="image/canboz.png" alt="">
+          </div>
+          <div class="col-lg-7 offset-lg-1">
+            <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero dignissimos voluptatem amet accusantium dolorem, incidunt earum sit! Vel aperiam aspernatur provident illo maiores necessitatibus? Modi explicabo culpa ipsum fugit architecto?</p>
+            <h3 class="fw-bold fs-4">Yetenekler;</h3>
+            <p class="mb-0">HTML:</p>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-success" style="width: 99%">%99</div>
+            </div>
+            <p class="mb-0">CSS:</p>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-warning" style="width: 80%">%80</div>
+            </div>
+            <p class="mb-0">Javascript:</p>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-info" style="width: 90%">%90</div>
+            </div>
+            <p class="mb-0">xxx:</p>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-secondary" style="width: 90%">%90</div>
+            </div>
+            <p class="mb-0">yyy:</p>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-danger" style="width: 90%">%90</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="bg-dark py-5">
+        <div class="container">
+          <div class="text-center" style="color: white;">
+            <h2 class="text-uppercase fw-bolder">kurslarım</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odit?</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <img src="image/img1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+</body>
+</html>
